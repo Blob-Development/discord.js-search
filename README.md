@@ -3,12 +3,21 @@ Find Discord assets such as users or channels in an easier way—quick and easy 
 
 ## Install
 npm:
-```npm install discord.js-search```
+```bash
+npm install discord.js-search
+```
 
 <br>
 
 yarn:
-```yarn add discord.js-search```
+```bash
+yarn add discord.js-search
+```
+
+## Requirements:
+[`Node.js`](http://nodejs.org/) — **v14** or latest.
+<br><br>
+[`Discord.js`](https://discord.js.org/) — **v12.3.1** or latest.
 
 ## Example
 Synchronous:
