@@ -2,14 +2,14 @@
 Find Discord assets such as users or channels in an easier way—quick and easy setup.
 
 ## Install
-npm:
+[npm](https://www.npmjs.com/):
 ```bash
 npm install discord.js-search
 ```
 
 <br>
 
-yarn:
+[yarn](https://yarnpkg.com/):
 ```bash
 yarn add discord.js-search
 ```
@@ -38,3 +38,15 @@ const search = require("discord.js-search");
 let findMem = await search.searchMember(message, 'ray#1337');
 return message.channel.send(findMem.user.tag); // Return: https://discord.js.org/#/docs/main/stable/class/GuildMember
 ```
+
+## Reference
+> - **fetchUnused** and **production** are optional.
+> - **query** can be string (name, tag) or number (ID)
+
+- **searchEmoji([message](https://discord.js.org/#/docs/main/stable/class/Message), query:String|Number, production:Boolean = false)**
+
+- **searchRole([message](https://discord.js.org/#/docs/main/stable/class/Message), query:String|Number, production:Boolean = false)**
+
+- **searchChannel([message](https://discord.js.org/#/docs/main/stable/class/Message), query:String|Number, production:Boolean = false)**
+
+- **searchMember([message](https://discord.js.org/#/docs/main/stable/class/Message), query:String|Number, fetchUnused:Boolean = false, production:Boolean = false)**
