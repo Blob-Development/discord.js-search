@@ -65,4 +65,5 @@ This project is not affiliated/associated/partnered with Discord or even Discord
 If you have a problem with the package, create [issue template](https://github.com/Blob-Development/discord.js-search/issues) instead.
 
 ## License
+© Copyright 2020-present, Blob Project <br>
 [Apache License, version 2.0](https://www.apache.org/licenses/LICENSE-2.0)
