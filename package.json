@@ -1,16 +1,40 @@
 {
   "name": "discord.js-search",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find Discord assets such as users or channels in an easier way—quick and easy setup.",
   "main": "index.js",
-  "funding": "https://buymeacoffee.com/blob",
+  "funding": {
+    "url": "https://buymeacoffee.com/blob"
+  },
   "homepage": "https://github.com/Blob-Development/discord.js-search",
-  "keywords": ["discord", "blob", "project", "user", "client", "api", "bot", "node", "discordapp"],
+  "keywords": [
+    "discord",
+    "blob",
+    "project",
+    "user",
+    "client",
+    "api",
+    "bot",
+    "node",
+    "discordapp"
+  ],
   "author": "Blob Project (https://blob-project.com)",
   "license": "Apache-2.0",
-  "scripts": { "test": "echo \"Error: no test specified\" && exit 1" },
-  "repository": { "type": "git", "url": "git+https://github.com/Blob-Development/discord.js-search.git" },
-  "bugs": { "url": "https://github.com/Blob-Development/discord.js-search/issues", "email": "support@blob-project.com" },
-  "engines": { "node": ">=14.0.0" },
-  "dependencies": { "semver": "^7.3.4" }
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blob-Development/discord.js-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Blob-Development/discord.js-search/issues",
+    "email": "support@blob-project.com"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "semver": "^7.3.4"
+  }
 }
